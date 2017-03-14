@@ -6,8 +6,8 @@ figure,imshow(i)
 zoomf_r = 1.25;
 zoomf_c = 1.25;
 
-r2 = zoomf_r*r;
-c2 = zoomf_c*c;
+r2 = uint8(zoomf_r*r);
+c2 = uint8(zoomf_c*c);
 
 j = zeros(r2, c2, 'uint8');
 
