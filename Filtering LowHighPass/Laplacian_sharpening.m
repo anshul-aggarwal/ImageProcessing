@@ -33,7 +33,7 @@ z = uint8(z);
 
 for m = 1:r
     for n = 1:c
-        h(m,n) = -g(m,n) + z(m+1,n+1);
+        h(m,n) =  z(m+1,n+1) - g(m,n);
     end
 end
 
