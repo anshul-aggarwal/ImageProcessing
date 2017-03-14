@@ -12,8 +12,6 @@ title('Original image')
 [r,c] = size(i);
 
 g = zeros(r, c, 'double');
-%h = zeros(r, c, 'uint8');
-%p = zeros(r, c, 'uint8');
 z = zeros(r+2,c+2,'uint8');
 
 %Zero padding
