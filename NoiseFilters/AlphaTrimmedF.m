@@ -17,9 +17,6 @@ d = 8;
 lsf = floor(1 + d/2);
 usf = floor(9 - d/2);
 
-ll = round(d/2 + 0.02);
-ul = round(9 - d/2 + 0.02);         %INCOMPLETE%
-
 g = zeros(r, c, 'double');
 z = zeros(r+2,c+2,'uint8');
 f = zeros(9,1,'double');
